@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<!-- Latest compiled and minified CSS -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+	<!-- jQuery library -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+	<!-- Latest compiled JavaScript -->
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+	<link rel='stylesheet' href='style.css'/>
+	<style>
+		.name {
+			font-family: "Big Caslon", "Book Antiqua", "Palatino Linotype", Georgia, serif;
+			font-size: 30px;
+			margin: auto;
+		    position: relative;
+		    margin-top: 10px;
+		    margin-bottom: 50px;
+		    text-align: center;
+		    -webkit-animation: mymove 5s infinite; /* Safari 4.0 - 8.0 */
+		    animation: mymove 5s infinite;
+		}
+
+		/* Safari 4.0 - 8.0 */
+		@-webkit-keyframes mymove {
+		    0%   {top: 100px;}
+		    25%  {top: 200px;}
+		    75%  {top: 100px}
+		    100% {top: 200px;}
+		}
+
+		/* Standard syntax */
+		@keyframes mymove {
+		    0%   	{top: 0px; margin-left: 0px;}
+		    33.3% 	{top: 50px; margin-left: -50px;}
+		    66.6% 	{top: 50px; margin-left: 50px;}
+		    100%	{top: 0px; margin-left: 0px;}
+
+	</style>
+
+</head>
+
+<body>
+	<div class="container">
+		<div class="row header">
+				<div class="col-md-12">
+					<div class=name id="d1">
+						Carter Duong
+					</div>
+					is an aspiring designer, developer, and artist studying Interdisciplinary Computing and the Arts at UC San Diego.
+					<br>
+					<a href="mailto:c7duong@ucsd.edu">email</a>&middot;<a href="assets/CarterDuong_Resume.pdf">r&eacute;sum&eacute;</a>
+				</div>
+		</div>
+
+		<div class="row content">
+			<div class="col-md-8 image">
+				<img src="assets/fq_cover.png" class="img-responsive" alt="Responsive image">
+				<br>
+				<img src="assets/fq_keith.png" class="img-responsive" alt="Responsive image">
+				<br>
+				<img src="assets/fq_car.png" class="img-responsive" alt="Responsive image">
+				<br>
+			</div>
+
+			<div class="col-md-4">
+				<h1>Fashion Quarterly</h1>
+				<p>
+					Art Direction and Design<br>2016-Present
+				</p>
+			</div>
+		</div>
+
+		<div class="row content">
+			<div class="col-md-8 image">
+				<video autoplay loop muted class="img-responsive" alt="Responsive image">
+					<source src="assets/paper.mp4" type="video/mp4">
+				</video>
+				<br>
+				<img src="assets/water4.gif" class="img-responsive" alt="Responsive image">
+			</div>
+
+			<div class="col-md-4">
+				<h1>R&eacute;sum&eacute;</h1>
+				<p>
+					Unity, C#<br>A game about r&eacute;sum&eacute; destruction.<br>2016
+				</p>
+			</div>
+		</div>
+
+		<div class="row content">
+			<div class="col-md-8 image">
+				<img src="assets/car5.png" class="img-responsive" alt="Responsive image">
+				<br>
+				<img src="assets/1.png" class="img-responsive" alt="Responsive image">
+				<br>
+				<img src="assets/SEAPC7_scanned.png" class="img-responsive" alt="Responsive image">
+				<br>
+				<video autoplay loop muted class="img-responsive" alt="Responsive image">
+					<source src="assets/145a.mp4" type="video/mp4">
+				</video>
+			</div>
+
+			<div class="col-md-4">
+				<h1>Unused graphics</h1>
+				<p>
+					Blender, Xerox.<br>2016-2017
+				</p>
+			</div>
+		</div>
+	</div>
+</body>
+</html>
